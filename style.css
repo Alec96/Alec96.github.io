@@ -1,6 +1,5 @@
 body {
 	font: 'Helvetica', sans-serif;
-	background-image: url(wood.jpg);
 	color: white;
 }
 
@@ -25,10 +24,18 @@ hr {
 	width: 05%;
 }
 
+#container1 {
+	padding: 120px;
+}
+
+.bg-1 {
+	background-image: url(wood.jpg);
+
+}
 .navbar {
-	  background-color: transparent;
+   background-color: transparent;
    background: transparent;
    border-color: transparent;
-	
 }
+
 .navbar li { color: #000 } 
