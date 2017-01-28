@@ -1,6 +1,8 @@
 body {
 	font: 'Helvetica', sans-serif;
 	color: white;
+	background-image: url(wood.jpg);
+	background-attachment: fixed;
 }
 
 h1 {
@@ -29,8 +31,13 @@ hr {
 }
 
 .bg-1 {
-	background-image: url(wood.jpg);
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
 
+.bg-2 {
+  background-color: SteelBlue;
 }
 .navbar {
    background-color: transparent;
