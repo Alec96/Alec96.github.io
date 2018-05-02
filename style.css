@@ -1,66 +1,15 @@
-body {
-	font: 'Helvetica', sans-serif;
-	color: white;
-	background-image: url(wood.jpg);
-	background-attachment: fixed;
-}
-
-h1 {
-	text-align: center;
-}
-
-p {
-	font-size: 30px;
-	text-align: center;
-}
-
-.myclass {
-	color: red;
-}
-
-#myid {
-	color: brown;
-}
-
-hr {
-	width: 05%;
-}
-
-#container1 {
-	padding: 120px;
-}
-#container2 {
-	padding: 120px;
-}
-#container3 {
-	padding: 120px;
-}
-#container4 {
-	padding: 120px;
-}
-
-.bg-1 {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-}
-
-.bg-2 {
-
-  background-color: SteelBlue;
-}
-
-.bg-3 {
-	background-color: #E88D67;
-}
-
-.bg-4 {
-	background-color: #C0E6DE;
-}
 .navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+  background-color: black;
+  position: fixed; 
+  top: 0px; 
+  width: 100%; 
+  text-align: right;
 }
 
-.navbar li { color: #000 } 
+.navbar a {
+	color: white;
+}
+
+#homediv {
+	padding-top: 150px;
+}
