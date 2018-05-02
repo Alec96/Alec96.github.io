@@ -1,6 +1,22 @@
 hr {
 	width: 40%
 }
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: -5px 2px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
 
 .navbar {
   background-color: black;
@@ -10,6 +26,16 @@ hr {
   text-align: right;
 }
 
+.ul-social-div {
+	margin-right: 9%;
+}
+
+.ul-social {
+	right: 10%;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
 
 .navbar a {
 	color: white;
