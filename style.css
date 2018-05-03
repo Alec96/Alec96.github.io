@@ -1,66 +1,76 @@
-body {
-	font: 'Helvetica', sans-serif;
-	color: white;
-	background-image: url(wood.jpg);
-	background-attachment: fixed;
-}
-
-h1 {
-	text-align: center;
-}
-
-p {
-	font-size: 30px;
-	text-align: center;
-}
-
-.myclass {
-	color: red;
-}
-
-#myid {
-	color: brown;
-}
-
 hr {
-	width: 05%;
+	width: 40%
+}
+h2 {
+	text-align: center;
 }
 
-#container1 {
-	padding: 120px;
+#projectsTitle {
+	margin-top: -50px;
+	margin-bottom: 50px;
 }
-#container2 {
-	padding: 120px;
-}
-#container3 {
-	padding: 120px;
-}
-#container4 {
-	padding: 120px;
-}
-
-.bg-1 {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: -5px 2px;
+    border-radius: 10%;
+    background-color: white;
 }
 
-.bg-2 {
-
-  background-color: SteelBlue;
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
 }
 
-.bg-3 {
-	background-color: #E88D67;
-}
 
-.bg-4 {
-	background-color: #C0E6DE;
-}
 .navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+  background-color: black;
+  position: fixed; 
+  top: 0px; 
+  width: 100%; 
+  text-align: right;
 }
 
-.navbar li { color: #000 } 
+.ul-social-div {
+	margin-right: 9%;
+}
+
+.ul-social {
+	right: 10%;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar a {
+	color: white;
+}
+
+#homeDiv {
+	padding-top: 100px;
+}
+
+.home1 {
+	left: 13%;
+}
+.home2 {
+	right: 8%;
+}
+
+#nameAndTitle {
+	margin-top: 10%;
+	text-align: center;	
+}
+
+#projectsDiv {
+	padding: 80px;
+	border: dashed;
+}
+
+#myCard {
+	max-width: 700px;
+	min-height: 350px;
+}
