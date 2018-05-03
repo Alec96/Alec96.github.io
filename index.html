@@ -9,19 +9,23 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-	<!-- Latest compiled and minified CSS -->
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+	<!--JQuery-->
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<!--My CSS-->
 	<link rel="stylesheet" href="style.css">
 	<TITLE>Alec Li</TITLE>
 
 </head>
 <body>
 
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-dark navbar-fixed-top">
 		<div class="navbar-header">
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
@@ -31,10 +35,10 @@
 	</nav>
 
 	<!--Home Container-->
-	<div class="container-fluid" id= "homediv">
+	<div class="container-fluid" id= "homeDiv">
 		<div class="row">
 			<div class="col-sm home1">
-				<img src="me.jpg" class="rounded-circle img-responsive" width="300" height="300">
+				<img src="me.jpg" class="rounded-circle img-responsive"s height="300">
 			</div>
 			<div class="col-sm home2">
 				<div id="nameAndTitle">
@@ -63,13 +67,41 @@
 	</div>
 
 	<!--Experiences Container-->
-	<div class="container-fluid">
-		Project
+	<div class="container-fluid" id="experiencesDiv">
+		Experiences
 	</div>
 	
 	<!--Project Container-->
-	<div class="container-fluid">
-		Experiences
+	<div class="container-fluid" id="projectsDiv">
+		<h2 id="projectsTitle">Projects</h2>
+		<div class="row">
+			<div class="col-12 col-md-8 project1">
+				<div class="card" id="projectCard">
+					<div class="card-header">
+						<ul class="nav nav-tabs card-header-tabs">
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Description</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Picture</a>
+							</li>
+						</ul>
+					</div>
+					<div class="card-body">
+						<h4 class="card-title">Title</h4>
+						<h5 class="card-subtitle">Subtitle</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus sapien ut tellus dictum suscipit. Maecenas urna nisi, malesuada vitae elit non, bibendum interdum lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam efficitur a justo nec ultricies. Aliquam vitae efficitur sem. Sed ultricies ante in mollis euismod. Aenean vitae porttitor felis. Praesent pretium est ut est scelerisque tempus. Fusce at consequat enim, in semper risus. Vivamus posuere tempor justo vel varius. Etiam eget tempor nisi.
+
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-6 col-md-4 project2"> 
+				<input class="btn btn-primary" type="button" value="Rotten Tomatillos">
+				<input class="btn btn-primary" type="button" value="Music Editor">
+			</div>
+		</div>
 	</div>
 
 
