@@ -70,6 +70,7 @@ h2 {
 	border: dashed;
 }
 
-#projectCard {
-	max-width: 500px;
+#myCard {
+	max-width: 700px;
+	min-height: 350px;
 }

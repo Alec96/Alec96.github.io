@@ -77,21 +77,28 @@
 		<h2 id="projectsTitle">Projects</h2>
 		<div class="row">
 			<div class="col-12 col-md-8 project1">
-				<div class="card" id="projectCard">
-					<div class="card-header">
-						<ul class="nav nav-tabs card-header-tabs">
+				<div class="card" id="myCard">
+					<div class="card-header"> 
+						<ul class="nav nav-tabs card-header-tabs pull-left"  id="myTab" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link active" href="#">Description</a>
+								<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" href="#">Picture</a>
+								<a class="nav-link" id="Picture-tab" data-toggle="tab" href="#picture" role="tab" aria-controls="picture" aria-selected="false">Picture</a>
 							</li>
 						</ul>
 					</div>
 					<div class="card-body">
-						<h4 class="card-title" id="cardTitle"> Default Title</h4>
-						<h5 class="card-subtitle" id="cardSubtitle">Default Subtitle</h5>
-						<p class="card-text" id="cardBody">Default Body</p>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+								<h4 class="card-title" id="cardTitle"> Default Title</h4>
+								<h5 class="card-subtitle" id="cardSubtitle">Default Subtitle</h5>
+								<p class="card-text" id="cardBody">Default Body</p>
+							</div>
+							<div class="tab-pane fade" id="picture" role="tabpanel" aria-labelledby="picture-tab">
+								<img src="me.jpg" class="img-responsive" width="600" height="400">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
