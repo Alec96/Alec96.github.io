@@ -8,6 +8,13 @@ h2 {
 #projectsTitle {
 	margin-top: -50px;
 	margin-bottom: 50px;
+	color: #1106FF;
+}
+
+#experiencesTitle {
+	margin-top: -50px;
+	margin-bottom: 50px;
+	color: #1106FF;
 }
 .fa {
     padding: 20px;
@@ -18,6 +25,7 @@ h2 {
     margin: -5px 2px;
     border-radius: 10%;
     background-color: white;
+    color: #1106FF;
 }
 
 .fa:hover {
@@ -27,11 +35,12 @@ h2 {
 
 
 .navbar {
-  background-color: black;
+  background-color: white;
   position: fixed; 
   top: 0px; 
   width: 100%; 
   text-align: right;
+  z-index: 1000;
 }
 
 .ul-social-div {
@@ -46,11 +55,13 @@ h2 {
 }
 
 .navbar a {
-	color: white;
+	color: #1106FF;
 }
 
-#homeDiv {
-	padding-top: 100px;
+#home {
+	padding-top: 150px;
+	background-color: white;
+	height: 100vh;
 }
 
 .home1 {
@@ -61,16 +72,29 @@ h2 {
 }
 
 #nameAndTitle {
+	color: #1106FF;
 	margin-top: 10%;
 	text-align: center;	
 }
 
-#projectsDiv {
+#experiences {
+	padding: 100px;
+}
+
+#experiences span{
+	margin-left: 50%;
+}
+
+#experiences .jobCard {
+	width: 60%;
+}
+
+#projects {
 	padding: 80px;
-	border: dashed;
 }
 
 #myCard {
-	max-width: 700px;
-	min-height: 350px;
+	margin-left: 50px;
+	min-height: 400px;
+	min-width: 500px;
 }

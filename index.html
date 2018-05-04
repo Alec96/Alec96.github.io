@@ -26,17 +26,17 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-dark navbar-fixed-top">
+	<nav class="navbar navbar-dark navbar-inverse navbar-fixed-top">
 		<div class="navbar-header">
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
-			<a href="#experience">Experience</a>
+			<a href="#experiences">Experience</a>
 			<a href="#projects">Projects</a>
 		</div>
 	</nav>
 
 	<!--Home Container-->
-	<div class="container-fluid" id= "homeDiv">
+	<div class="container-fluid" id= "home">
 		<div class="row">
 			<div class="col-sm home1">
 				<img src="me.jpg" class="rounded-circle img-responsive"s height="300">
@@ -68,16 +68,35 @@
 	</div>
 
 	<!--Experiences Container-->
-	<div class="container-fluid" id="experiencesDiv">
-		Experiences
+	<div class="container-fluid" id="experiences">
+		<h2 id="experiencesTitle">Experience</h2>
+		<div class="card jobCard">
+			<div class="card-header">
+				AIR Worldwide
+				<span class="jobPeriod">July 2018 - December 2018</span>
+			</div>
+			<div class="card-body"></div>
+		</div>
+		<hr>
+		<div class="card">
+			<div class="card-header">
+				PowerAdvocate
+				<span class="jobPeriod">July 2017 - December 2017</span>
+			</div>
+			<div class="card-body"></div>
+		</div>
 	</div>
 	
 	<!--Project Container-->
-	<div class="container-fluid" id="projectsDiv">
+	<div class="container-fluid" id="projects">
 		<h2 id="projectsTitle">Projects</h2>
 		<div class="row">
+			<div class="col-6 col-md-4 project2"> 
+				<input class="btn btn-primary" id = "rotten" type="button" value="Rotten Tomatillos">
+				<input class="btn btn-primary" type="button" value="Music Editor">
+			</div>
 			<div class="col-12 col-md-8 project1">
-				<div class="card" id="myCard">
+				<div class="card" id="projectCard">
 					<div class="card-header"> 
 						<ul class="nav nav-tabs card-header-tabs pull-left"  id="myTab" role="tablist">
 							<li class="nav-item">
@@ -101,11 +120,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="col-6 col-md-4 project2"> 
-				<input class="btn btn-primary" id = "rotten" type="button" value="Rotten Tomatillos">
-				<input class="btn btn-primary" type="button" value="Music Editor">
 			</div>
 		</div>
 	</div>
