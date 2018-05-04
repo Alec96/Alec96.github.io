@@ -52,7 +52,14 @@ h2 {
 	border: none;
 	margin: 0 auto;
 	max-width: 80%;
-	max-height: 80%;
+	min-height: 90%;
+}
+
+#projectsCard, #experiencesCard, #aboutCard {
+	background-color: white;
+	border: none;
+	margin: 0 auto;
+	max-width: 93%;
 	min-height: 90%;
 }
 #nameAndTitle {
@@ -91,7 +98,6 @@ h2 {
 #about {
 	padding: 100px;
 	background-color:#58D3F7;
-		height: 100vh;
 }
 #about img{
 	display: block;
@@ -102,18 +108,10 @@ h2 {
 #experiences {
 	padding: 100px;
 	background-color: #58D3F7;
-		height: 100vh;
 }
 
 #experiences span{
 	float: right;
-}
-
-#experiencesCard {
-		background-color: white;
-	border: none;
-	max-width: 80%;
-	min-height: 90%;
 }
 
 #experiences .jobCard {
@@ -125,18 +123,5 @@ h2 {
 #projects {
 	padding: 80px;
 	background-color: #58D3F7;
-}
 
-#projectsCard {
-		background-color: white;
-	border: none;
-	max-width: 80%;
-	max-height: 80%;
-	min-height: 90%;
-}
-
-#myCard {
-	margin-left: 50px;
-	min-height: 400px;
-	min-width: 500px;
 }
