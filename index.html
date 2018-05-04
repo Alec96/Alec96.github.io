@@ -26,7 +26,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-dark navbar-inverse navbar-fixed-top">
+<!--	<nav class="navbar navbar-dark navbar-inverse navbar-fixed-top">
 		<div class="navbar-header">
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
@@ -34,91 +34,105 @@
 			<a href="#projects">Projects</a>
 		</div>
 	</nav>
+-->
 
-	<!--Home Container-->
-	<div class="container-fluid" id= "home">
-			<div class="row">
-				<div class="col-sm home2">
-					<div id="nameAndTitle">
-						<h1>Alec Li</h1>
-						<hr>
-						<h2>Software Developer</h2>
-					</div>
-					<div class="ul-social-div">
-						<ul class="ul-social">
-							<li>
-								<a href="https://linkedin.com/in/alec-li-503b1a127" class="fa fa-linkedin"></a>
-							</li>
-							<li>
-								<a href="https://github.com/Alec96" class="fa fa-github"></a>
-							</li>
-							<li>
-								<a href="resume.pdf" class="fa fa-file-text-o"></a>
-							</li>
-							<li>
-								<a href="mailto:example@email.com" class="fa fa-envelope"></a>
-							</li>
-						</ul>
-					</div>
+<!--Home Container-->
+<div class="container-fluid" id= "home">
+	<div class="card" id="homeCard">
+		<div class="row">
+			<div class="col-sm home2">
+				<div id="nameAndTitle">
+					<h1>Alec Li</h1>
+					<hr>
+					<h2>Software Developer</h2>
+				</div>
+				<div class="ul-social-div">
+					<ul class="ul-social">
+						<li>
+							<a href="https://linkedin.com/in/alec-li-503b1a127" class="fa fa-linkedin"></a>
+						</li>
+						<li>
+							<a href="https://github.com/Alec96" class="fa fa-github"></a>
+						</li>
+						<li>
+							<a href="resume.pdf" class="fa fa-file-text-o"></a>
+						</li>
+						<li>
+							<a href="mailto:example@email.com" class="fa fa-envelope"></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-	</div>
-
-	<!--About Me Container-->
-	<div class="container-fluid" id="about">
-		<h2 id="experiencesTitle">About Me</h2>
-		<img src="me.jpg" class="img-responsive rounded-circle" width="300" height="300">
-	</div>
-
-	<!--Experiences Container-->
-	<div class="container-fluid" id="experiences">
-		<h2 id="experiencesTitle">Experience</h2>
-		<div class="card jobCard">
-			<div class="card-header">
-				AIR Worldwide
-				<span class="jobPeriod">July 2018 - December 2018</span>
-			</div>
-			<div class="card-body"></div>
-		</div>
-		<hr>
-		<div class="card jobCard">
-			<div class="card-header">
-				PowerAdvocate
-				<span class="jobPeriod">July 2017 - December 2017</span>
-			</div>
-			<div class="card-body"></div>
 		</div>
 	</div>
-	
-	<!--Project Container-->
-	<div class="container-fluid" id="projects">
-		<h2 id="projectsTitle">Projects</h2>
-		<div class="row">
-			<div class="col-6 col-md-4 project2"> 
-				<input class="btn btn-primary" id = "rotten" type="button" value="Rotten Tomatillos">
-				<input class="btn btn-primary" type="button" value="Music Editor">
+</div>
+
+<!--About Me Container-->
+<div class="container-fluid" id="about">
+	<div class="card" id="aboutCard">
+		<div class="card-body">
+			<h2 class="card-title" id="aboutMeTitle">About Me</h2>
+			<img src="me.jpg" class="img-responsive rounded-circle" width="300" height="300">
+		</div>
+	</div>
+</div>
+
+<!--Experiences Container-->
+<div class="container-fluid" id="experiences">
+	<div class="card" id="experiencesCard">
+		<div class="card-body">
+			<h2 id="experiencesTitle">Experience</h2>
+			<div class="card jobCard">
+				<div class="card-header">
+					AIR Worldwide
+					<span class="jobPeriod">July 2018 - December 2018</span>
+				</div>
+				<div class="card-body"></div>
 			</div>
-			<div class="col-12 col-md-8 project1">
-				<div class="card" id="projectCard">
-					<div class="card-header"> 
-						<ul class="nav nav-tabs card-header-tabs pull-left"  id="myTab" role="tablist">
-							<li class="nav-item">
-								<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" id="Picture-tab" data-toggle="tab" href="#picture" role="tab" aria-controls="picture" aria-selected="false">Picture</a>
-							</li>
-						</ul>
-					</div>
-					<div class="card-body">
-						<div class="tab-content" id="myTabContent">
-							<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-								<h4 class="card-title" id="cardTitle"> Default Title</h4>
-								<h5 class="card-subtitle" id="cardSubtitle">Default Subtitle</h5>
-								<p class="card-text" id="cardBody">Default Body</p>
-							</div>
-							<div class="tab-pane fade" id="picture" role="tabpanel" aria-labelledby="picture-tab">
-								<img src="me.jpg" class="img-responsive" width="600" height="400" id="projectImage">
+			<hr>
+			<div class="card jobCard">
+				<div class="card-header">
+					PowerAdvocate
+					<span class="jobPeriod">July 2017 - December 2017</span>
+				</div>
+				<div class="card-body"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Project Container-->
+<div class="container-fluid" id="projects">
+	<div class="card" id="projectsCard">
+		<div class="card-body">
+			<h2 class="card-title" id="projectsTitle">Projects</h2>
+			<div class="row">
+				<div class="col-6 col-md-4 project2"> 
+					<input class="btn btn-primary" id = "rotten" type="button" value="Rotten Tomatillos">
+					<input class="btn btn-primary" type="button" value="Music Editor">
+				</div>
+				<div class="col-12 col-md-8 project1">
+					<div class="card" id="projectCard">
+						<div class="card-header"> 
+							<ul class="nav nav-tabs card-header-tabs pull-left"  id="myTab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="Picture-tab" data-toggle="tab" href="#picture" role="tab" aria-controls="picture" aria-selected="false">Picture</a>
+								</li>
+							</ul>
+						</div>
+						<div class="card-body">
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+									<h4 class="card-title" id="cardTitle"> Default Title</h4>
+									<h5 class="card-subtitle" id="cardSubtitle">Default Subtitle</h5>
+									<p class="card-text" id="cardBody">Default Body</p>
+								</div>
+								<div class="tab-pane fade" id="picture" role="tabpanel" aria-labelledby="picture-tab">
+									<img src="me.jpg" class="img-responsive" width="600" height="400" id="projectImage">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -126,6 +140,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 
 </body>	
