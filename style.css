@@ -20,7 +20,7 @@ h2 {
 	margin: -5px 2px;
 	border-radius: 10%;
 	background-color: white;
-	color: black;
+	color: navy;
 }
 
 .fa:hover {
@@ -43,7 +43,7 @@ h2 {
 
 #home {
 	padding-top: 60px;
-	background-color:#58D3F7;
+	background-color:lightgray;
 	height: 100vh;
 }
 
@@ -53,14 +53,26 @@ h2 {
 	margin: 0 auto;
 	max-width: 80%;
 	min-height: 90%;
+	box-shadow: 1px 1px 5px black;
+}
+
+.breadcrumb {
+	background-color: white;
+	color: navy;
+}
+
+.breadcrumb a {
+	color: navy;
 }
 
 #projectsCard, #experiencesCard, #aboutCard {
+	box-shadow: 1px 1px 5px black;
 	background-color: white;
 	border: none;
 	margin: 0 auto;
 	max-width: 93%;
 	min-height: 90%;
+	box-shadow: 2px 2px 5px black;
 }
 #nameAndTitle {
 	margin-top: 100px;
@@ -76,6 +88,7 @@ h2 {
 }
 
 #nameAndTitle h1 {
+	margin-top: -60px;
 	font-size: 80px;
 	color:black;
 }
@@ -96,8 +109,8 @@ h2 {
 }
 
 #about {
-	padding: 100px;
-	background-color:#58D3F7;
+	padding: 50px;
+	background-color:lightgray;
 }
 #about img{
 	display: block;
@@ -105,9 +118,13 @@ h2 {
 	margin-right: auto;
 }
 
+#aboutMeTitle, #experiencesTitle, #projectsTitle {
+	margin-top: -50px;
+}
+
 #experiences {
-	padding: 100px;
-	background-color: #58D3F7;
+	padding: 50px;
+	background-color: lightgray;
 }
 
 #experiences span{
@@ -121,7 +138,20 @@ h2 {
 }
 
 #projects {
-	padding: 80px;
-	background-color: #58D3F7;
+	padding: 50px;
+	background-color: lightgray;
 
+}
+
+.btn {
+	outline-color: black;
+}
+
+.nav-link {
+	color: navy;
+}
+
+#projectDescriptionCard {
+
+	box-shadow: 1px 1px 3px black;
 }

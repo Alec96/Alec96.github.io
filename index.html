@@ -35,10 +35,15 @@
 		</div>
 	</nav>
 -->
-
 <!--Home Container-->
 <div class="container-fluid" id= "home">
 	<div class="card" id="homeCard">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item active">Home</li>
+			<li class="breadcrumb-item"><a href="#about">About</a></li>
+			<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
+			<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+		</ol>
 		<div class="row">
 			<div class="col-sm home2">
 				<div id="nameAndTitle">
@@ -70,6 +75,12 @@
 <!--About Me Container-->
 <div class="container-fluid" id="about">
 	<div class="card" id="aboutCard">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item active">About</li>
+			<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
+			<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+		</ol>
 		<div class="card-body">
 			<h2 class="card-title" id="aboutMeTitle">About Me</h2>
 			<img src="me.jpg" class="img-responsive rounded-circle" width="300" height="300">
@@ -80,6 +91,12 @@
 <!--Experiences Container-->
 <div class="container-fluid" id="experiences">
 	<div class="card" id="experiencesCard">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item"><a href="#about">About</a></li>
+			<li class="breadcrumb-item active">Experience</li>
+			<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+		</ol>
 		<div class="card-body">
 			<h2 id="experiencesTitle">Experience</h2>
 			<div class="card jobCard">
@@ -87,7 +104,7 @@
 					AIR Worldwide
 					<span class="jobPeriod">July 2018 - December 2018</span>
 				</div>
-				<div class="card-body"></div>
+				<div class="card-body">Software Quality Assurance Co-op</div>
 			</div>
 			<hr>
 			<div class="card jobCard">
@@ -95,7 +112,7 @@
 					PowerAdvocate
 					<span class="jobPeriod">July 2017 - December 2017</span>
 				</div>
-				<div class="card-body"></div>
+				<div class="card-body">Software Developer Co-op</div>
 			</div>
 		</div>
 	</div>
@@ -104,15 +121,21 @@
 <!--Project Container-->
 <div class="container-fluid" id="projects">
 	<div class="card" id="projectsCard">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item"><a href="#about">About</a></li>
+			<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
+			<li class="breadcrumb-item active">Projects</li>
+		</ol>
 		<div class="card-body">
 			<h2 class="card-title" id="projectsTitle">Projects</h2>
 			<div class="row">
 				<div class="col-6 col-md-4 project2"> 
-					<input class="btn btn-primary" id = "rotten" type="button" value="Rotten Tomatillos">
-					<input class="btn btn-primary" type="button" value="Music Editor">
+					<input class="btn btn-outline-dark" id = "rotten" type="button" value="Rotten Tomatillos">
+					<input class="btn btn-outline-dark" type="button" value="Music Editor">
 				</div>
 				<div class="col-12 col-md-8 project1">
-					<div class="card" id="projectCard">
+					<div class="card" id="projectDescriptionCard">
 						<div class="card-header"> 
 							<ul class="nav nav-tabs card-header-tabs pull-left"  id="myTab" role="tablist">
 								<li class="nav-item">
@@ -124,7 +147,7 @@
 							</ul>
 						</div>
 						<div class="card-body">
-							<div class="tab-content" id="myTabContent">
+							<div class="tab-content" id="projectTabContent">
 								<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
 									<h4 class="card-title" id="cardTitle"> Default Title</h4>
 									<h5 class="card-subtitle" id="cardSubtitle">Default Subtitle</h5>
@@ -140,7 +163,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 
 
 </body>	
