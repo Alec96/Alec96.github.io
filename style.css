@@ -21,6 +21,7 @@ h2 {
 	margin-top: -50px;
 	margin-bottom: 50px;
 	color: black;
+	font-weight: bold;
 }
 
 /*Social Media Buttons*/
@@ -137,6 +138,7 @@ h2 {
 #projects {
 	padding: 50px;
 	background-color: lightgray;
+	min-height:100vh;
 }
 
 .btn {
@@ -149,4 +151,5 @@ h2 {
 
 #projectDescriptionCard {
 	box-shadow: 1px 1px 3px black;
+
 }
