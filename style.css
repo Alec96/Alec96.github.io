@@ -5,7 +5,20 @@ h2 {
 	text-align: center;
 }
 
+/*Abstracted between divs*/
+#projectsCard, #experiencesCard, #aboutCard {
+	box-shadow: 1px 1px 5px black;
+	background-color: white;
+	border: none;
+	margin: 0 auto;
+	max-width: 93%;
+	min-height: 90%;
+	box-shadow: 2px 2px 5px black;
+}
+
+
 #projectsTitle, #experiencesTitle, #aboutMeTitle {
+	margin-top: -50px;
 	margin-bottom: 50px;
 	color: black;
 }
@@ -39,6 +52,17 @@ h2 {
 	justify-content: center;
 }
 
+/*Breadcrumb Navigation*/
+
+.breadcrumb {
+	background-color: white;
+	color: navy;
+}
+
+.breadcrumb a {
+	color: navy;
+}
+
 /*Home Page*/
 
 #home {
@@ -56,29 +80,8 @@ h2 {
 	box-shadow: 1px 1px 5px black;
 }
 
-.breadcrumb {
-	background-color: white;
-	color: navy;
-}
-
-.breadcrumb a {
-	color: navy;
-}
-
-#projectsCard, #experiencesCard, #aboutCard {
-	box-shadow: 1px 1px 5px black;
-	background-color: white;
-	border: none;
-	margin: 0 auto;
-	max-width: 93%;
-	min-height: 90%;
-	box-shadow: 2px 2px 5px black;
-}
 #nameAndTitle {
 	margin-top: 100px;
-	color: black;
-	text-align: center;	
-	font-family: "Droid Serif";
 }
 
 #nameAndTitle h1, h2{
@@ -94,33 +97,25 @@ h2 {
 }
 
 
-.navbar {
-	background-color: white;
-	position: fixed; 
-	top: 0px; 
-	width: 100%; 
-	text-align: right;
-	z-index: 1000;
-}
-
-
-.navbar a {
-	color: #1106FF;
-}
+/*About Page*/
 
 #about {
 	padding: 50px;
 	background-color:lightgray;
 }
+
 #about img{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 80px;
+	margin-top: -20px;
 }
-
-#aboutMeTitle, #experiencesTitle, #projectsTitle {
-	margin-top: -50px;
+#about p {
+	font-size: 18px;
 }
+#aboutMeP {
+	margin-top: -15px;
+}
+/*Experiences Page*/
 
 #experiences {
 	padding: 50px;
@@ -137,10 +132,11 @@ h2 {
 
 }
 
+/*Projects Page*/
+
 #projects {
 	padding: 50px;
 	background-color: lightgray;
-
 }
 
 .btn {
@@ -152,6 +148,5 @@ h2 {
 }
 
 #projectDescriptionCard {
-
 	box-shadow: 1px 1px 3px black;
 }

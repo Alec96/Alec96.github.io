@@ -11,12 +11,13 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!--JS Scripts-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	<!--JQuery-->
-	<script src="jquery-3.3.1.min.js"></script>
+	<!--My JS-->
 	<script src="index.js"></script>
 
 	<!--My CSS-->
@@ -26,64 +27,68 @@
 </head>
 <body>
 
-<!--	<nav class="navbar navbar-dark navbar-inverse navbar-fixed-top">
-		<div class="navbar-header">
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-			<a href="#experiences">Experience</a>
-			<a href="#projects">Projects</a>
-		</div>
-	</nav>
--->
-<!--Home Container-->
-<div class="container-fluid" id= "home">
-	<div class="card" id="homeCard">
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item active">Home</li>
-			<li class="breadcrumb-item"><a href="#about">About</a></li>
-			<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
-			<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
-		</ol>
-		<div class="row">
-			<div class="col-sm home2">
-				<div id="nameAndTitle">
-					<h1>Alec Li</h1>
-					<hr>
-					<h2>Software Developer</h2>
-				</div>
-				<div class="ul-social-div">
-					<ul class="ul-social">
-						<li>
-							<a href="https://linkedin.com/in/alec-li-503b1a127" class="fa fa-linkedin"></a>
-						</li>
-						<li>
-							<a href="https://github.com/Alec96" class="fa fa-github"></a>
-						</li>
-						<li>
-							<a href="resume.pdf" class="fa fa-file-text-o"></a>
-						</li>
-						<li>
-							<a href="mailto:example@email.com" class="fa fa-envelope"></a>
-						</li>
-					</ul>
+	<!--Home Container-->
+	<div class="container-fluid" id= "home">
+		<div class="card" id="homeCard">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active">Home</li>
+				<li class="breadcrumb-item"><a href="#about">About</a></li>
+				<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
+				<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+			</ol>
+			<div class="row">
+				<div class="col-sm home2">
+					<div id="nameAndTitle">
+						<h1>Alec Li</h1>
+						<hr>
+						<h2>Software Developer</h2>
+					</div>
+					<div class="ul-social-div">
+						<ul class="ul-social">
+							<li>
+								<a href="https://linkedin.com/in/alec-li-503b1a127" class="fa fa-linkedin"></a>
+							</li>
+							<li>
+								<a href="https://github.com/Alec96" class="fa fa-github"></a>
+							</li>
+							<li>
+								<a href="Resume.pdf" class="fa fa-file-text-o"></a>
+							</li>
+							<li>
+								<a href="mailto:example@email.com" class="fa fa-envelope"></a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<!--About Me Container-->
-<div class="container-fluid" id="about">
-	<div class="card" id="aboutCard">
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Home</a></li>
-			<li class="breadcrumb-item active">About</li>
-			<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
-			<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
-		</ol>
-		<div class="card-body">
-			<h2 class="card-title" id="aboutMeTitle">About Me</h2>
-			<img src="me.jpg" class="img-responsive rounded-circle" width="300" height="300">
+	<!--About Me Container-->
+	<div class="container-fluid" id="about">
+		<div class="card" id="aboutCard">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Home</a></li>
+				<li class="breadcrumb-item active">About</li>
+				<li class="breadcrumb-item"><a href="#experiences">Experience</a></li>
+				<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+			</ol>
+			<div class="card-body">
+				<h2 class="card-title container" id="aboutMeTitle">About Me</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="me.jpg" class="img-responsive rounded-circle" width="300" height="300">
+					</div>
+					<div class="col-md-6" id="aboutMeP">
+						<p>
+							Hi! My name is Alec li. I'm currently a fourth year at Northeastern University, pursuing a Bachelor's Degree in Computer Science.
+						</p>
+						<p>
+							Computer Science is a passion of mine as it allows me to build things I would never have imagined myself capable of building when I was younger, and the idea of being able to create something from scratch has always been terribly exciting to me. When I'm not coding, you can probably find me learning a new recipe, or at the gym!
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
