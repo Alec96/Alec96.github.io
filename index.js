@@ -15,8 +15,8 @@ $(document).ready(function(){
 		"with the visual representation of the sheet music displayed through a user interface that utilizes the Java Swing graphics library. "+ 
 		"Users were able to play any songs, provided that there was a midi file present, as well as standard music editor features such as " + 
 		"pausing, playing, looping, adding, and removing notes. As this was one of my first major projects, I learnt and applied many design " +
-		"patterns that were new to me at the time, such as the MVC and Adaptor pattern.",
-		img: "me.jpg"
+		"patterns that were new to me at the time, such as the MVC and Adaptor pattern. \n Photo Courtesy of Vincent Carlino.",
+		img: "musiceditor.jpg"
 	}
 
 	var projects = {"Rotten Tomatillos": rottenTomatillos, "Music Editor": musicEditor}
